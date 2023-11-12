@@ -1,0 +1,28 @@
+<mvc:View
+    controllerName="routing.zrouting.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+        titleAlignment="Center"
+    >
+    <headerContent>
+        <Button
+        id="idMainButton"
+        icon="sap-icon://action"
+        type="Transparent"
+        press="onPress"
+        text="Go to second page"
+    />
+    </headerContent>
+        <content>
+            <Label text="Main view" width="100%"></Label>
+            <core:Fragment fragmentName="routing.zrouting.fragment.Demo" type="XML"></core:Fragment>
+            <mvc:XMLView viewName="routing.zrouting.view.nested.Nested"></mvc:XMLView>
+        </content>
+    </Page>
+</mvc:View>

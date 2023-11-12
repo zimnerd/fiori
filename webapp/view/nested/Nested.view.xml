@@ -1,0 +1,14 @@
+<mvc:View
+    controllerName="routing.zrouting.controller.nested.Nested"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    
+
+            <Label text="I am nested here" width="100%"></Label>
+            <Button text="Greet me" id="idBtn" press="onNestedBtn"></Button>
+  
+
+</mvc:View>

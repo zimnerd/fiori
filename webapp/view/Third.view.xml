@@ -1,0 +1,20 @@
+<mvc:View
+    controllerName="routing.zrouting.controller.THird"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="Third Page"
+        titleAlignment="Center"
+        showNavButton="true"
+        navButtonPress="onBackNav"
+    >
+        <content>
+         <Label text="Third view" width="100%"></Label>
+         <core:Fragment fragmentName="routing.zrouting.fragment.Demo" type="XML"></core:Fragment>
+        </content>
+    </Page>
+</mvc:View>
